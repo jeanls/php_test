@@ -22,5 +22,5 @@ php artisan migrate -> cria a tabela no banco de dados
 php artisan serve -> servidor para testar a aplicação
 ````
 
-A aplicação deve rodar na url: http://127.0.0.1:8000 caso for utilizada outra url deverá ser atualizada na aplicação de front-end.
+A aplicação deve rodar na url: http://127.0.0.1:8000 caso for utilizada outra url, deverá ser atualizada na aplicação de front-end.
 
