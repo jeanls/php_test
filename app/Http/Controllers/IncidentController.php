@@ -14,6 +14,10 @@ class IncidentController extends Controller
         $this->incidentRepository = $incidentRepository;
     }
 
+    public function get($id){
+        return $this->incidentRepository->get($id);
+    }
+
     public function index(){
         return $this->incidentRepository->index();
     }

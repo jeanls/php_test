@@ -14,6 +14,14 @@ class IncidentRepository
         return Incident::all();
     }
 
+    public function get($id){
+        $incident = Incident::find($id);
+        if(!isset($incident)){
+            return response('', 404);
+        }
+        return $incident;
+    }
+
     public function save(Request $request)
     {
         return Incident::create($request->all());

@@ -19,6 +19,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::get('incidents', 'IncidentController@index');
+Route::get('incident/{id}', 'IncidentController@get');
 Route::post('incident/save', 'IncidentController@save');
 Route::put('incident/update/{id}', 'IncidentController@update');
 Route::delete('incident/delete/{id}', 'IncidentController@delete');
