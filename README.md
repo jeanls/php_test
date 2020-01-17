@@ -12,6 +12,7 @@
 - Versão do PHP utilizada: 7.4.1
 - O projeto usa o banco de dados mysql/mariadb ->  10.4.11-MariaDB (XAMPP)
 - O composer é utilizado como gerenciador de dependências (https://getcomposer.org/download/)
+- Renomear o arquivo .env.example para .env e configurar a conexão com o banco de dados
 
 ### Comandos
 
