@@ -13,7 +13,7 @@
 - O projeto usa o bando de dados mysql/mariadb ->  10.4.11-MariaDB (XAMPP)
 - O composer é utilizado como gerenciador de dependências (https://getcomposer.org/download/)
 
-###Comandos
+### Comandos
 
 Na pasta da aplicação rode os comandos no terminal/prompt
 ````
